@@ -1,0 +1,125 @@
+JShell:
+--------
+JShell is new to the Java9.
+It is an interactive Java Shell tool, which allows us to execute java code from the shell and show output immediately.
+
+JShell is a REPL(Read Evaluate Print Loop) tool and run from the command line (CLI)
+
+Advantages:
+JShell has reduced all the efforts that are required to run any Java Program and test business logics.
+
+If we don't use JShell , then creating a Java program involves following steps
+1.Open Editor
+2.package and class
+3. write method
+4. save program
+5. open cli and compile 
+6. execute 
+7. show output
+
+Display ---> Hello world
+
+> System.out.println("Hello world");
+
+
+
+How to run jshell
+>jshell
+|  Welcome to JShell -- Version 11.0.23
+|  For an introduction type: /help intro
+
+
+JShell Sample Code:
+
+
+jshell> System.out.println("Hello world");
+Hello world
+
+jshell> 2+3
+$2 ==> 5
+
+jshell> 2+3+4
+$3 ==> 9
+
+jshell> int  num = 10;
+num ==> 10
+
+jshell> System.out.println("Num value "+num);
+Num value 10
+
+jshell> /list
+
+   1 : System.out.println("Hello world");
+   2 : 2+3
+   3 : 2+3+4
+   4 : int  num = 10;
+   5 : System.out.println("Num value "+num);
+
+jshell> /edit  (it opens applet where we can modify code and accept it)
+
+jshell> System.out.println("Num value "+num);
+Num value 10
+
+jshell> /save
+|  '/save' requires a filename argument.
+
+jshell> /edit
+num ==> 500
+
+jshell> System.out.println("Num value "+num);
+Num value 500
+
+jshell> String name = new String("javeed");
+name ==> "javeed"
+
+jshell> name.length();
+$10 ==> 6
+
+jshell> name.toUpperCase();
+$11 ==> "JAVEED"
+
+jshell> int  add(int a, int b)
+   ...> {
+   ...> return a+b;
+   ...> }
+|  created method add(int,int)
+
+jshell> add(5,10);
+$13 ==> 15
+
+
+
+
+jshell> String name = new String("javeed")
+name ==> "javeed"
+
+jshell> class  Test{
+   ...> void show(){
+   ...> System.out.println("Hello Friends");
+   ...> }
+   ...> }
+|  created class Test
+
+jshell> new Test().show();
+Hello Friends
+
+
+default packages imported by jshell
+
+jshell> /imports               
+|    import java.io.*
+|    import java.math.*
+|    import java.net.*
+|    import java.nio.file.*
+|    import java.util.*
+|    import java.util.concurrent.*
+|    import java.util.function.*
+|    import java.util.prefs.*
+|    import java.util.regex.*
+|    import java.util.stream.*
+
+
+user can import any package explicitly as below
+jshell> import java.sql.*;  
+
+

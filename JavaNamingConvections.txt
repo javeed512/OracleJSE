@@ -1,0 +1,114 @@
+packages:
+
+lower case
+
+pack1;
+school;
+
+com.school.students;
+
+com.oracle.login;
+
+syn:-  domain.company.project.module; 
+ex: java.lang , java.util , java.io 
+
+
+
+
+class or interface or enum:
+----------------------------
+InitCap  
+
+Employee
+Student
+Products
+EmployeeAccountDetails
+
+
+Object
+System
+String
+Scanner
+Integer
+ArrayList
+
+
+constructors:
+
+Initcap  , its same as class names
+
+Object();
+String();
+Employee();
+
+variables or methods:
+-----------------------
+camel case
+
+ex:  amount, rollno , name
+     amountPaid , firstName , lastName , studentAccountNumber
+
+	get() , getStudentDetails() , getAmount() , setAmount()
+
+
+final varibles:
+----------------
+Block Letters
+
+ex:  PI , IFSC  
+
+int  AMOUNT = 9000;
+
+
+ int TOKEN_NUMBER;
+
+
+$ AND _ 
+
+
+
+class System{
+
+static PrintStream  out  = new PrintStream();
+static PrintStream errnew PrintStream();
+
+static  InputStream in = new InputStream();
+
+
+
+}
+
+
+
+Reading data from Keyboard
+
+java.util.Scanner    class
+
+
+	
+
+	Scanner s1 = new Scanner(System.in);
+
+
+Scanner:
+
+  next(); // read single string
+  nextLine(); // read one line 
+  nextXX(); // to read string value and convert into specific data type
+
+nextInt() , nextFloat() , nextDouble() ..........
+
+
+   "5000"
+
+ 5000  <---  nextInt();
+
+
+
+
+
+
+
+
+
+
