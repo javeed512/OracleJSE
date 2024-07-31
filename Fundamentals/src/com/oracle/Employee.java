@@ -7,11 +7,27 @@ public class Employee {
 	private double salary;
 	
 	
-	 public Employee(int eid, String ename, double salary) {
-		super();
+	
+	public String toString(int x,int y) {
+	
+		return "";
+	}
+	
+	
+	
+	public String toString() {
+		
+		
+		return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + "]";
+	}
+
+
+	public Employee(int eid, String ename, double salary) {
+		this();
 		this.eid = eid;
 		this.ename = ename;
 		this.salary = salary;
+		
 	}
 
 

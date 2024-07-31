@@ -1,0 +1,77 @@
+
+public class Object{
+
+
+	public Object(){
+
+		// creating obj
+		// memory allocation in heap
+		// creating copy of instance vars
+		// generating hashcode 
+
+
+	}
+
+     	toString();
+	equals();  // compare references of 2 diff objects
+	hashcode();
+	getClass();
+	wait()
+	notify()
+	notifyAll()
+	finalize();
+	clone(
+
+}
+
+
+
+
+
+
+
+public final class String extends Object{
+
+
+	toString(){
+
+		return stringvalue;
+	}
+
+	hashcode(){
+		return stringvalue
+
+	}
+
+	concate();
+	charAt()
+	int compareTo();  "B".compareTo("A");
+	boolean equals()
+	
+
+
+
+}
+
+
+class StringBuffer/StringBuilder {
+
+	reverse()
+	append()
+	substring()
+	insert()
+	delete()
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
