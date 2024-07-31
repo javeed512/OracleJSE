@@ -1,0 +1,100 @@
+OOPs
+----
+
+1. Class and Object
+2. Encapsulation
+3. Inheritance
+4. Polymorphism 
+5. Abstraction
+
+
+Inheritance 
+
+For classes only multi level inheritance is possible , multiple inheritance not possible.
+
+For interfaces both multi level inheritance  as well as multiple inheritance is  possible.
+
+
+Abstraction:
+-----------
+Highligting set of services and hiding implementation code from the user.
+
+Abstraction =  interfaces + abstract classes (implementation)
+
+
+
+
+class   Machine {
+
+
+	public abstract void  m1();  // abstract method
+
+	public void m2(){
+		
+	// business logics
+
+
+	}
+
+
+
+}
+
+
+Interface:
+----------
+
+End User: interface is set of services provided by service provider. It act like UI.
+
+Developers: Interface is nothing but specification/requirement. 
+             which developers need to implements
+
+
+
+interface  Bank {
+
+	// only abstract methods
+
+	void withdraw();
+
+}
+
+
+class BankImp  implements Bank{
+
+
+	void withdraw(){
+
+
+	}
+
+
+}
+
+
+interface I1,I2,I3
+
+
+public interface I1 extends I2,I3{
+
+
+
+}
+
+IBank  b = new BankImp2();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
