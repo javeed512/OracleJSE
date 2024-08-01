@@ -1,0 +1,54 @@
+
+Java-8 Features:
+===============
+java.time.*; (Date Time API)
+Functional Interface
+static and default methods in interfaces
+Lambda Expression
+Stream API
+Optional return type
+method and constructor references
+
+
+
+java.time.*;
+
+LocalDate
+LocalTime        // now();
+LocalDateTime 
+
+
+getX();
+plusXX();
+minusXX();
+isXx();
+
+
+
+Lambda expression:
+------------------
+Consumer Functional interface
+Supplier Functional interface
+Predicate Funcational interface
+Fnction Functional interface
+
+
+public interface  MyInteface {//
+
+	//void  set(int x);   			// consumer
+
+	//int  get();            		 //supplier
+
+	//  boolean   isValid(String username);   // predicate
+
+	//  T  accept(E e);          		  // function
+
+
+}
+
+
+
+
+
+
+

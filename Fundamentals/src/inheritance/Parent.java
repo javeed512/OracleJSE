@@ -20,5 +20,11 @@ public  class Parent extends Object{  // IS A relationship
 		
 	}
 	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	
 
 }
