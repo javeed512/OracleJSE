@@ -1,0 +1,23 @@
+
+Exception keywords:
+
+1. try  : risky code
+2. catch : catch exception , handling exceptions
+3. finally : mandatory code should be written
+4. throws : it will throws exception from callee to the caller / propagate exception
+5. throw : it is used to throw exceptions explicitly
+
+
+syn:
+
+try{
+
+}
+catch(Exception e){
+
+
+}
+finally{
+
+
+}
