@@ -1,0 +1,38 @@
+Mini Project case study: (Refer EStore Project for more clarity)
+
+Note: Use Java 9 or above  try to create project in Eclipse/NetBeans along with module and create jar file to deploy/run this application
+
+project structure should be as follows:
+
+src
+ |-com.oracle.soccer.pojo     (Create All Pojos here)
+ |-com.oracle.soccer.service  (Create Service interfaces and Implementation classes here)
+ |-com.oracle.soccer.presentation (Client class with main() method for UI )
+ |-com.oracle.soccer.exception   (Create User defined CheckedException eg: "PlayerNotFoundException"                           and use it when ever Player List is empty  during delete/remove operation)
+
+
+Soccer Application
+--------------------
+
+Create 3 classes, Client,Player(pojo) and FootballTeam(pojo).
+The application Client class will use the two other classes (football player and football team).
+
+
+
+-> Create 11 football players (you can place them in an array or ArrayList)
+create a football team ( FootballTeam ) using the players above use the football team instance (object) to display the information requested 
+
+->a football player (Player) class has at least 5 attributes of your choice a method that returns the complete info about the player
+
+
+
+->a football team class has
+ a name , country ,
+ 11 football players (List<Players>),
+ any other attributes (optional)
+->a method that displays all the information about a team .
+->a method that display information about a specific player in the team 
+
+Note: In Player and FootballTeam classes use  
+	Setters,Getters,Constructors , toString()  methods to display above informations.
+  
