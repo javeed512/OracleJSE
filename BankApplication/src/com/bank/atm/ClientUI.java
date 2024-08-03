@@ -1,6 +1,8 @@
 package com.bank.atm;
 
 import java.util.Scanner;
+
+import com.estore.pojo.Product;
 /*
  * @author: sneha
  * 
@@ -13,6 +15,13 @@ public class ClientUI {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
+		
+		
+		Product p1 = new Product(404, "Mobile", 40000);
+		
+		
+		
+		
 
 		boolean flag = true;
 		
